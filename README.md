@@ -11,11 +11,11 @@ To uncover the molecular basis that modulates the pattern of monocyte migration,
 ------
 ## Usage
 ### Classification and Simulation
-``classifier.py`` provides cell contact classifiers.
-``Cell_simulation`` generates cell motion simulation trajectories.
-The data used to train the cell contact classifier and the classification model are in ``/data``
+``classifier.py`` provides cell contact classifiers.     
+``Cell_simulation`` generates cell motion simulation trajectories.    
+The data used to train the cell contact classifier and the classification model are in ``/data``.
 ### Calcium ion analysis
-``distance_distribution.py`` provides statistics of cell distances.
-``generate_contact_data_csv.py`` generates data on contact cells.
-``generate_spike_data_csv.py`` generates data on calcium spikes.
-``generate_peak_contact.py`` generates contact data for cells with calcium spikes.
+``distance_distribution.py`` provides statistics of cell distances.     
+``generate_contact_data_csv.py`` generates data on contact cells.  
+``generate_spike_data_csv.py`` generates data on calcium spikes.   
+``generate_peak_contact.py`` generates contact data for cells with calcium spikes.   
