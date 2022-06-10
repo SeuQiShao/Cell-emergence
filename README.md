@@ -19,3 +19,10 @@ The data used to train the cell contact classifier and the classification model 
 ``generate_contact_data_csv.py`` generates data on contact cells.  
 ``generate_spike_data_csv.py`` generates data on calcium spikes.   
 ``generate_peak_contact.py`` generates contact data for cells with calcium spikes.   
+
+--------------
+##Requirements
+numpy >= 1.21.2  
+pandas >= 1.3.3  
+xgboost >= 1.6.1  
+scikit-learn >= 0.24.2  
