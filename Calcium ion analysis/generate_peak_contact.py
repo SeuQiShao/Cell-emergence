@@ -79,8 +79,8 @@ def generate_peak_contact(data_dir, save_dir, time_interval, time_plus = 0):
 if __name__ == '__main__':
     datadir_10 = '/Dataset/Cell_Contact/anti-LFA-1-CD54 xml analysis excel/'
     datadir_20 = '/Dataset/Cell_Contact/20220516 ctrl-antag CCR2 CXCR2 anti LFA-1 xml analysis excel/'
-    save_dir20 = '/shaoqi/Cell/plot_contact/contact_spike20_0/'
-    save_dir10 = '/shaoqi/Cell/plot_contact/contact_spike10_0/'
+    save_dir20 = '/Cell/plot_contact/contact_spike20_0/'
+    save_dir10 = '/Cell/plot_contact/contact_spike10_0/'
     if not os.path.exists(save_dir20):
         os.makedirs(save_dir20)
     if not os.path.exists(save_dir10):
